@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FEE40B7-EEA2-4350-9732-A2D87747E3F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>almacen_santa_lucia.My.MyApplication</StartupObject>
+    <RootNamespace>almacen_santa_lucia</RootNamespace>
+    <AssemblyName>almacen_santa_lucia</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>almacen_santa_lucia.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>almacen_santa_lucia.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\AJR Remolques Gestion Desktop 17-01-2017\AJR Remolques\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABM_Categorias.Designer.vb">
+      <DependentUpon>ABM_Categorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Categorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_Productos.Designer.vb">
+      <DependentUpon>ABM_Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_Tarjetas_Credito.Designer.vb">
+      <DependentUpon>ABM_Tarjetas_Credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Tarjetas_Credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_Tarjetas_Debito.Designer.vb">
+      <DependentUpon>ABM_Tarjetas_Debito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Tarjetas_Debito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM_Ventas.Designer.vb">
+      <DependentUpon>ABM_Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clases\Base_De_Datos.vb" />
+    <Compile Include="Clases\Categorias.vb" />
+    <Compile Include="Clases\Funciones.vb" />
+    <Compile Include="Clases\Globales.vb" />
+    <Compile Include="Clases\Module1.vb" />
+    <Compile Include="Clases\Parametros.vb" />
+    <Compile Include="Clases\Productos.vb" />
+    <Compile Include="Clases\Tarjetas_Credito.vb" />
+    <Compile Include="Clases\Tarjetas_Debito.vb" />
+    <Compile Include="Clases\Usuarios.vb" />
+    <Compile Include="Clases\Ventas_Detalles.vb" />
+    <Compile Include="Configurar.Designer.vb">
+      <DependentUpon>Configurar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exportar_Base_Datos.Designer.vb">
+      <DependentUpon>Exportar_Base_Datos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exportar_Base_Datos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pantalla_Inicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pantalla_Inicial.Designer.vb">
+      <DependentUpon>Frm_Pantalla_Inicial.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Categorias.Designer.vb">
+      <DependentUpon>Listado_Categorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado_Categorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Productos.Designer.vb">
+      <DependentUpon>Listado_Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado_Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Tarjetas_Credito.Designer.vb">
+      <DependentUpon>Listado_Tarjetas_Credito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado_Tarjetas_Credito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Tarjetas_Debito.Designer.vb">
+      <DependentUpon>Listado_Tarjetas_Debito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado_Tarjetas_Debito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listado_Ventas.Designer.vb">
+      <DependentUpon>Listado_Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Listado_Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modificar_Clave.Designer.vb">
+      <DependentUpon>Modificar_Clave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modificar_Clave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Clases\Ventas.vb" />
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABM_Categorias.resx">
+      <DependentUpon>ABM_Categorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_Productos.resx">
+      <DependentUpon>ABM_Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_Tarjetas_Credito.resx">
+      <DependentUpon>ABM_Tarjetas_Credito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_Tarjetas_Debito.resx">
+      <DependentUpon>ABM_Tarjetas_Debito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM_Ventas.resx">
+      <DependentUpon>ABM_Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurar.resx">
+      <DependentUpon>Configurar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exportar_Base_Datos.resx">
+      <DependentUpon>Exportar_Base_Datos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pantalla_Inicial.resx">
+      <DependentUpon>Frm_Pantalla_Inicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado_Categorias.resx">
+      <DependentUpon>Listado_Categorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado_Productos.resx">
+      <DependentUpon>Listado_Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado_Tarjetas_Credito.resx">
+      <DependentUpon>Listado_Tarjetas_Credito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado_Tarjetas_Debito.resx">
+      <DependentUpon>Listado_Tarjetas_Debito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listado_Ventas.resx">
+      <DependentUpon>Listado_Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar_Clave.resx">
+      <DependentUpon>Modificar_Clave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elimina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eqsl_exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir-icono-5248-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir-icono-5248-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper-pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel_2010_23622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel_2010_236221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+    <None Include="Resources\imprimir-icono-5248-482.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

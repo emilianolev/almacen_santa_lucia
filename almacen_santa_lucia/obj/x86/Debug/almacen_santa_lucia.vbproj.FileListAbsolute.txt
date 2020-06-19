@@ -1,0 +1,49 @@
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.exe
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.pdb
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.xml
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\MySql.Data.dll
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Login.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Resources.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.exe
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.xml
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.pdb
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Frm_Pantalla_Inicial.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Categorias.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Categorias.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Productos.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Productos.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.vbprojResolveAssemblyReference.cache
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Ventas.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.vbproj.GenerateResource.Cache
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Tarjetas_Credito.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Tarjetas_Credito.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Tarjetas_Debito.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Tarjetas_Debito.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Modificar_Clave.resources
+D:\Proyectos\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Ventas.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.exe
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.pdb
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\bin\Debug\almacen_santa_lucia.xml
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Categorias.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Productos.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Tarjetas_Credito.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Tarjetas_Debito.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.ABM_Ventas.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Configurar.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Exportar_Base_Datos.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Frm_Pantalla_Inicial.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Categorias.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Productos.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Tarjetas_Credito.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Tarjetas_Debito.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Listado_Ventas.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Login.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Modificar_Clave.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.Resources.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.SplashScreen1.resources
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.exe
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.xml
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\almacen_santa_lucia.pdb
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Proyectos\AutoServicio Santa Lucia\almacen_santa_lucia\almacen_santa_lucia\obj\x86\Debug\GenerateResource.write.1.tlog
